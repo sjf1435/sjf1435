@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.banner {  
+    width: 100%;  
+    position: relative;  
+    animation: slide 10s infinite;  
+}  
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    body {
+        background-image: url('path/to/image.jpg');
+        background-repeat: no-repeat;
+        background-size: cover; /* 图片自适应铺满 */
+    }‌:ml-citation{ref="1,2" data="citationList"}
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr; /* 单列布局 */
+    gap: 20px;
+    padding: 20px;
+}
+
+section {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #35424a;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

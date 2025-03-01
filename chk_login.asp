@@ -1,0 +1,6 @@
+<% 
+if session("mm_name") = "" or session("mm_level") = "" then
+response.Write("Äã»¹Ã»ÓÐµÇÂ½") 
+response.end
+end if
+%>
